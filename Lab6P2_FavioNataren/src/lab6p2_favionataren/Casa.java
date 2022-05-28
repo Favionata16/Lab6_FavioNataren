@@ -1,14 +1,20 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package lab6p2_favionataren;
 
 import java.util.ArrayList;
-
+/**
+ *
+ * @author favio
+ */
 public class Casa {
     
-    String Nombre = "";
-    int Size = 0;
-    int Costo = 0;
-    int CoordenadaX = 0;
-    int CoordenadaY = 0;
+    protected String Nombre;
+    protected int Size = 0,Costo = 0;
+    protected int CoordenadaX = 0,CoordenadaY = 0;
     
     ArrayList<Puffle> puffles = new ArrayList();
 

@@ -1,15 +1,23 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package lab6p2_favionataren;
-
+/**
+ *
+ * @author favio
+ */
 import java.util.ArrayList;
 
 public class Pinguino {
     
     protected String Nombre;
     protected String Password;
-    boolean Socio = false;
-    int Dinero = 1000;
-    Casa casa = null;
-    ArrayList<Item> items = new ArrayList();
+    protected boolean Socio = false;
+    protected int Dinero = 1000;
+    protected Casa casa = null;
+    protected ArrayList<Item> items = new ArrayList();
     
     public Pinguino(String Nombre, String Password){
         this.Nombre = Nombre;

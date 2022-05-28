@@ -1,11 +1,18 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package lab6p2_favionataren;
-
+/**
+ *
+ * @author favio
+ */
 public class Item {
     
-    //Atributos
-    String Nombre = "";
-    int Precio = 0;
-    String Tipo = "";
+    protected String Nombre;
+    protected int Precio = 0;
+    protected String Tipo;
 
     public Item(String Nombre, int Precio, String Tipo) {
         this.Nombre = Nombre;

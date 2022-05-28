@@ -1115,12 +1115,10 @@ public class Login extends javax.swing.JFrame {
     }//GEN-LAST:event_GuardarCasaAMouseClicked
 
     private void ColorPuffleAMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ColorPuffleAMouseClicked
-        // TODO add your handling code here:
-        ColorPuffleA.setBackground(JColorChooser.showDialog(this, "Seleccione el color del Puffle", Color.yellow));
+        ColorPuffleA.setBackground(JColorChooser.showDialog(this, "Seleccione un color para el Puffle", Color.yellow));
     }//GEN-LAST:event_ColorPuffleAMouseClicked
 
     private void GuardarPuffleAMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_GuardarPuffleAMouseClicked
-        // TODO add your handling code here:
         String Nombre = NombrePuffleA.getText();
         String PrecioS = PrecioPuffleA.getText();
         int Precio = Integer.parseInt(PrecioS);

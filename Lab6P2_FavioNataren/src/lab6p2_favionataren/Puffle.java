@@ -1,12 +1,20 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package lab6p2_favionataren;
 
 import java.awt.Color;
-
+/**
+ *
+ * @author favio
+ */
 public class Puffle {
     
-    String Nombre = "";
-    int Precio = 0;
-    Color color = null;
+    protected String Nombre;
+    protected int Precio = 0;
+    protected Color color = null;
 
     public Puffle(String Nombre, int Precio, Color color) {
         this.Nombre = Nombre;
